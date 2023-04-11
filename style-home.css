@@ -1,0 +1,138 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    background: #BBBBBB;   
+}
+
+.caixa {
+    position: relative;
+    width: 1540px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 210px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;  
+}
+
+.grupoestudos {
+    display: inline-block;
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    box-sizing: border-box;
+    border: 10px solid #978f67;
+    border-radius: 10px;
+}
+
+.principal {
+    background: rgb(124, 119, 124);
+    padding: 30px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    font-size: xx-large;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+}
+
+#vantagens {
+    font-size: 40px
+}
+
+
+em strong {
+    color: hsl(65, 92%, 54%);
+}
+
+.itens {
+    font-style: italic;
+    padding-bottom: 45px;
+}
+
+.requisitos {
+    background: rgb(253, 250, 250);
+    padding: 40px;
+    font-size: 100px;
+    font-style: italic;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size:xx-large;   
+}
+
+.tecnologia {
+    width: 50%;
+    box-sizing: border-box;
+    border: 10px solid #000000;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 20px 0 0;
+}
+

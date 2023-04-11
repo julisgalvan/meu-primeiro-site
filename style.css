@@ -1,0 +1,279 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    background: #888888;   
+}
+
+.caixa {
+    position: relative;
+    width: 1540px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 210px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;  
+}
+
+.produtos li:hover h2 {
+    font-size: 40px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 20px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 20px 0 0;
+}
+   
+form {
+    margin: 100px;
+    
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 100px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px  15px;
+}
+
+/* css da página inicial */
+.grupoestudos {
+    display: inline-block;
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    box-sizing: border-box;
+    border: 10px solid #978f67;
+    border-radius: 10px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: xx-large;
+    margin: 0 0 1em;
+    clear: left;
+    text-shadow: 2px 2px #a7aa75;
+}
+
+.titulo-principal:before {
+    content:"★ ";
+}
+
+.titulo-principal:after {
+    content:" ★";
+}
+
+.principal {
+    padding: 3em 0;
+    background-color: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    padding: 15px;
+    margin: 0 0 1em;
+    font-size: x-large;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.logogrupoestudos {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.tecnologia {
+    width: 60%;
+    box-sizing: border-box;
+    border: 10px solid #978f67;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+
+.piratas {
+    width: 60%;
+    box-sizing: border-box;
+    border: 10px solid #978f67;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+
+.aguaviva {
+    width: 60%;
+    box-sizing: border-box;
+    border: 10px solid #978f67;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+
+.requisitos {
+    background: linear-gradient(#FEFEFE, #bdb7b7);
+}
+
+.video {
+    width: 570px;
+    margin: 3em auto;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 10px #886b99;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.video:hover {
+    opacity: 0.3;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-conteudo {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+@media screen and (max-width:480px){
+    .caixa, .principal, .mapa-conteudo, .requisitos, .video  {
+        width:auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+}
